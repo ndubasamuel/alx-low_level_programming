@@ -4,8 +4,10 @@
  * print_alphabet - print alphabet
  * Return: void
  */
-int print_alphabet(void)
+int main(void)
 {
-        char letter = 'a';
+        print_alphabet();
 
-        while )(((
+        return (0);
+
+}
