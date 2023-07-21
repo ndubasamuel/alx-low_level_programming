@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * -is digit - checks character 0 through 9
+ * -isdigit - checks character 0 through 9
  *  @c: is the char to be checked 
  *
  *  Return: 0 or 1
