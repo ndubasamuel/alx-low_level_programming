@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_diagonal function- draws a diagonal line
  * @n: no of times the char \ should be printed
