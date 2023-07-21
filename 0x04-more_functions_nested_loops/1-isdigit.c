@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * -isdigit - checks character 0 through 9
  *  @c: is the char to be checked 
