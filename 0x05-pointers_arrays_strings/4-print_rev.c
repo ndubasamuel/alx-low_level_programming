@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 	int dev = 0;
 	int o;
