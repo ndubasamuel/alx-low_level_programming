@@ -13,7 +13,7 @@ void puts2(char *str)
 	char *n = str;
 	int o;
 
-	while (*n !='\0')
+	while (*n != '\0')
 	{
 		n++;
 		alexa++;
@@ -21,7 +21,7 @@ void puts2(char *str)
 	b = alexa - 1;
 	for (o = 0; o <= b; o++)
 	{
-		if (o %2 == 0)
+		if (o % 2 == 0)
 	{
 		_putchar(str[o]);
 	}
