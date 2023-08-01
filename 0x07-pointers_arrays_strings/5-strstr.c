@@ -2,7 +2,7 @@
 
 
 /**
- * _strstr() - finds the occurence of substring needle
+ * _strstr - finds the occurence of substring needle
  * @hystack: string
  * @needs: input
  * Return: if 0 (successful)
