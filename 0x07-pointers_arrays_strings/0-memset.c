@@ -5,6 +5,7 @@
  * @s: pointer memory of block to be filled
  * @b: desired value
  * @n: memory bytes
+ *
  * Return: dest
  */
 
