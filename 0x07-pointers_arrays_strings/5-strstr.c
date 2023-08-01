@@ -5,7 +5,8 @@
  * _strstr - finds the occurence of substring needle
  * @hystack: string
  * @needs: input
- * Return: if 0 (successful)
+ *
+ * Return: if 0 (success)
  */
 
 char *_strstr(char *haystack, char *needle)
