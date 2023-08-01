@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * _memset - fills an outlined mamory with a constant byte 
@@ -16,5 +16,5 @@ char *_memset(char *s, char b, unsigned int n)
 		*(s + i) = b;
 	}
 
-	return (s)
+	return (s);
 }
