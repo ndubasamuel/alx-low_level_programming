@@ -3,20 +3,20 @@
 /**
  * _strlen_recursion - function that returns length of a string
  * @s: string
- * 
- * Return: if 0 (successful)
+ *
+ * Return: if 0 (success)
  */
 
 int _strlen_recursion(char *s)
 {
 	int helloalx = 0;
 
-	if(*s)
+	if (*s)
 	{
 		helloalx++;
 		helloalx += _strlen_recursion(s + 1);
 
 	}
 
-	return(helloalx);
+	return (helloalx);
 }
