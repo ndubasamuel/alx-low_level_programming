@@ -4,8 +4,8 @@
 
 
 /**
- * main - prints the number of arguments passed 
- * @argc: argument count 
+ * main - prints the number of arguments passed
+ * @argc: argument count
  * @argv: argument array
  *
  * Return: if 0 (success)
