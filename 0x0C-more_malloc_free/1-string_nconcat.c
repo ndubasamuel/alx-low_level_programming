@@ -3,7 +3,7 @@
 
 /**
  * *string_nconcat - concatenates n bytes of string to another string
- * @s1: string to append 
+ * @s1: string to append
  * @s2: string to concate
  * @n: number of bytes from s2 toconcatenate to s1
  *
@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n < len2)
 		s = malloc(sizeof(char) * (len1 + n + 1));
 	else
-		s = malloc(sizeof(char) * (len1 + len2 +1));
+		s = malloc(sizeof(char) * (len1 + len2 + 1));
 
 	if (!s)
 		return (NULL);
